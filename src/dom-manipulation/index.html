@@ -6,31 +6,40 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-    <h1>Sobre mi</h1>
+    <div id="info">
+      <h1>Sobre mi</h1>
+      <div id="img-cabecera"></div>
 
-    <ul>
-      <li>
-        Mis restaurantes favoritos en Barcelona: <span id="restaurant"></span>
-      </li>
-      <li>Mi Barrio en Barcelona: <span id="neighborhood"></span></li>
-      <li>Mi ciudad natal: <span id="hometown"></span></li>
-    </ul>
+      <div id="list-container">
+        <ul id="list">
+          <li>
+            Mis restaurantes favoritos en Barcelona:
+            <span id="restaurant"></span>
+          </li>
 
-    <form>
-      <label>
-        Mis restaurantes favoritos en Barcelona
-        <input type="text" id="restaurantsInput" name="restaurantsInput"/>
-      </label>
-      <label>
-        Mi Barrio en Barcelona
-        <input type="text" id="neighborhoodInput" name="neighborhoodInput"/>
-      </label>
-      <label>
-        Mi ciudad natal
-        <input type="text" id="hometownInput" name="hometownInput"/>
-      </label>
-      <button type="submit">Submit</button>
-    </form>
+          <li>Mi Barrio en Barcelona: <span id="neighborhood"></span></li>
+          <li>Mi ciudad natal: <span id="hometown"></span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="form-container">
+      <form>
+        <label>
+          Mis restaurantes favoritos en Barcelona
+          <input type="text" id="restaurantsInput" name="restaurantsInput" />
+        </label>
+        <label>
+          Mi Barrio en Barcelona
+          <input type="text" id="neighborhoodInput" name="neighborhoodInput" />
+        </label>
+        <label>
+          Mi ciudad natal
+          <input type="text" id="hometownInput" name="hometownInput" />
+        </label>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
 
     <script type="text/javascript" src="index.js"></script>
   </body>
