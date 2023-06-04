@@ -25,7 +25,11 @@ class BinaryTree {
     let result = [];
 
     function traverse(node) {
-      // Tu código aquí
+      if (node) {
+        result.push(node.value);
+        traverse(node.left);
+        traverse(node.right);
+      }
     }
 
     traverse(this);
