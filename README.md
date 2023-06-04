@@ -43,5 +43,5 @@ Agrega 2 tests adicionales para esta función.
 
 Completa todas las preguntas de los archivos index.js y styles.css de la carpeta 'dom-manipulation'.
 
-- Nota:
-- Explicación:
+- Nota: 4
+- Explicación: He podido encontrar en la documentación lo que debía ir implementando para hacer los ejercicios, pero en cuanto a los estilos me ha costado bastante aplicarlos (y aún así no me gusta mucho el resultado). También tuve que editar la imagen de fondo porque no supe quitarle opacidad directamente en CSS.
